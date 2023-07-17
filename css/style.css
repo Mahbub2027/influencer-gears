@@ -121,11 +121,13 @@ ul li a {
     margin: 100px 130px;
     gap: 10px;
 }
+
 .featured-title {
     color: #0A0826;
     font-size: 2.2rem;
     font-weight: 700;
 }
+
 .featured-description {
     color: #6C6C6C;
     font-size: 0.9rem;
@@ -133,16 +135,39 @@ ul li a {
     margin-top: 20px;
     line-height: 1.1rem;
 }
+
 .btn-feat {
     border-radius: 0px;
 }
 
+/* footer section start */
+.footer {
+    background-color: #0A0826;
+    text-align: center;
+    padding: 50px;
+}
 
+.footer-title {
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 8px 0px;
+}
 
+.footer-description {
+    color:  #D9DBE1;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 24px;
+    
+}
 
-
-
-
+.social-network img{
+    width: 25px;
+    height: 25px;
+    margin: 20px 10px 0px 0px;
+    border-radius: 50%;
+}
 
 
 
@@ -161,7 +186,8 @@ ul li a {
         margin: 50px 10px;
     }
 
-    .banner-container, .featured-container {
+    .banner-container,
+    .featured-container {
         flex-direction: column-reverse;
         margin: 20px 10px;
         text-align: center;
@@ -184,7 +210,8 @@ ul li a {
         margin: 50px 10px;
     }
 
-    .banner-container, .featured-container {
+    .banner-container,
+    .featured-container {
         flex-direction: column-reverse;
         margin: 20px 10px;
         text-align: center;
