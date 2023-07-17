@@ -85,6 +85,39 @@ ul li a {
     height: 420px;
 }
 
+/* Main section start */
+/* online marketplaces */
+.online-marketplaces{
+    margin: 100px 160px;
+    text-align: center;
+    border: 1px solid rgba(207, 218, 230, 0.6);
+    border-right: none;
+    border-left: none;
+    padding: 20px 0px;
+}
+.online-marketplaces img{
+    margin-right: 50px;
+    margin-bottom: 10px;
+    /* width: 7%; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Media query start */
 /* for mobile device */
@@ -99,7 +132,28 @@ ul li a {
         text-align: center;
     }
     .banner-title{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
+    }
+    .online-marketplaces{
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+}
+
+/* for medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav{
+        flex-direction: column;
+        margin: 50px 10px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        margin: 20px 10px;
+        text-align: center;
+    }
+    .online-marketplaces{
+        flex-wrap: wrap;
+        margin: 10px;
     }
 }
 
